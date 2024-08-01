@@ -1,0 +1,44 @@
+{
+  "name": "reack-cli",
+  "version": "0.0.2",
+  "description": "基于vite二次封装的前端脚手架",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "reack-cli": "./bin/mycli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangkan/reack-cli.git"
+  },
+  "keywords": [
+    "reack-cli",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tangkan/reack-cli/issues"
+  },
+  "homepage": "https://github.com/tangkan/reack-cli#readme",
+  "devDependencies": {
+    "@eslint/compat": "^1.1.1",
+    "@eslint/js": "^9.7.0",
+    "eslint": "^9.7.0",
+    "eslint-plugin-react": "^7.34.4",
+    "globals": "^15.8.0",
+    "typescript-eslint": "^7.16.1"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "commander": "^12.1.0",
+    "degit": "^2.8.4",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^10.1.4",
+    "kolorist": "^1.8.0",
+    "ora": "^8.0.1"
+  }
+}
